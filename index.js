@@ -24,8 +24,6 @@ const total = () => {
     
     input.style.display = 'none';
     p.style.display = 'flex';
-    if (budget <  budget - (price1 + price2 + price3 + price4 + price5 + price6)) {
-        alert("your budjet is less than your items price");
-    }
-  p.innerHTML = budget - (price1 + price2 + price3 + price4 + price5 + price6) + " Birr will be your total cost";
+   
+  p.innerHTML = budget - price1 + price2 + price3 + price4 + price5 + price6 + " Birr will be your total cost";
 }
